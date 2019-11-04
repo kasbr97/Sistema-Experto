@@ -12,107 +12,107 @@ from tkinter.ttk import *
 def colesterol():
     preguntas_colesterol = []
     preguntas_colesterol.append("¿Tiene hinchazón en alguna extremidad del cuerpo?")
-    preguntas_colesterol.append("Tiene Perdida del equilibrio, mareos")
-    preguntas_colesterol.append("Tienes dolor de cabeza")
-    preguntas_colesterol.append("Tiene Amarillo en sus ojos")
-    preguntas_colesterol.append("Tiene vision borrosa")
-    preguntas_colesterol.append("Tiene agitacion, en especial al caminar o realizar alguna actividad")
-    preguntas_colesterol.append("Tiene dolor en el pecho")
+    preguntas_colesterol.append("¿Tiene pérdida del equilibrio y mareos?")
+    preguntas_colesterol.append("¿Tienes dolor de cabeza?")
+    preguntas_colesterol.append("¿Tiene amarillo en sus ojos?")
+    preguntas_colesterol.append("¿Tiene visión borrosa?")
+    preguntas_colesterol.append("¿Tiene agitación al caminar o al realizar alguna actividad?")
+    preguntas_colesterol.append("¿Tiene dolor en el pecho?")
     return preguntas_colesterol
 
 def diabetes():
     preguntas_diabetes = []
-    preguntas_diabetes.append("Padece de orinar con frecuencia")
-    preguntas_diabetes.append("Padece de sed constante")
-    preguntas_diabetes.append("Padece de hambre excesivo")
-    preguntas_diabetes.append("Padece de perdida de peso inexplicable")
-    preguntas_diabetes.append("Padece de debilidad de su cuerpo")
-    preguntas_diabetes.append("Padece de irratibilidad")
-    preguntas_diabetes.append("Padece de vision borrosa")
+    preguntas_diabetes.append("¿Padece de orinar con frecuencia?")
+    preguntas_diabetes.append("¿Padece de sed constante?")
+    preguntas_diabetes.append("¿Padece de hambre excesivo?")
+    preguntas_diabetes.append("¿Padece de pérdida de peso inexplicable?")
+    preguntas_diabetes.append("¿Padece de debilidad de su cuerpo?")
+    preguntas_diabetes.append("¿Padece de irratibilidad?")
+    preguntas_diabetes.append("¿Padece de visión borrosa?")
     return preguntas_diabetes
 
 def gastritis():
     preguntas_gastritis = []
-    preguntas_gastritis.append("Padece de ardor en el estomago")
-    preguntas_gastritis.append("Padece de Perdida de peso")
-    preguntas_gastritis.append("Padece de nauseas repentinas")
-    preguntas_gastritis.append("Padece de hipo o eructos frecuentes")
-    preguntas_gastritis.append("Padece de mal de sabor de la boca")
-    preguntas_gastritis.append("Padece de vacio gastrico")
+    preguntas_gastritis.append("¿Padece de ardor en el estómago?")
+    preguntas_gastritis.append("¿Padece de pérdida de peso?")
+    preguntas_gastritis.append("¿Padece de nauseas repentinas?")
+    preguntas_gastritis.append("¿Padece de hipo o eructos frecuentes?")
+    preguntas_gastritis.append("¿Padece de mal de sabor de la boca?")
+    preguntas_gastritis.append("¿Padece de vacío gástrico?")
     return preguntas_gastritis
 
 def asma():
     preguntas_asma = []
-    preguntas_asma.append("Padece de tos")
-    preguntas_asma.append("Padece sibilancias")
-    preguntas_asma.append("Padece de presion en el pecho")
-    preguntas_asma.append("Padece de dificultad para respirar")
+    preguntas_asma.append("¿Padece de tos?")
+    preguntas_asma.append("¿Tiene sibilancias?")
+    preguntas_asma.append("¿Siente alguna presion en el pecho?")
+    preguntas_asma.append("¿Tiene dificultad para respirar?")
     return preguntas_asma
 
 def sida():
     preguntas_sida = []
     preguntas_sida.append("¿Tiene fiebre?")
-    preguntas_sida.append("Tiene dolor de cabeza")
-    preguntas_sida.append("Tiene o sufre fatiga")
-    preguntas_sida.append("Tiene glandios linfaticos hinchados")
-    preguntas_sida.append("Tiene dolor de garganta")
-    preguntas_sida.append("Tiene sarpullido")
+    preguntas_sida.append("¿Tiene dolor de cabeza?")
+    preguntas_sida.append("¿Tiene o sufre de fatiga?")
+    preguntas_sida.append("¿Tiene glandios linfáticos hinchados?")
+    preguntas_sida.append("¿Tiene dolor de garganta?")
+    preguntas_sida.append("¿Tiene sarpullido?")
     return preguntas_sida
 
 def tuberculosis():
     preguntas_tuberculosis = []
-    preguntas_tuberculosis.append("Tiene tos con sangre o esputo")
-    preguntas_tuberculosis.append("Tiene dolor en el pecho")
-    preguntas_tuberculosis.append("Tiene debilidad o cansancio")
-    preguntas_tuberculosis.append("Tiene falta de apetito")
-    preguntas_tuberculosis.append("Tiene escalofiros")
-    preguntas_tuberculosis.append("Tiene perdida de peso")
-    preguntas_tuberculosis.append("Tiene fiebre")
+    preguntas_tuberculosis.append("¿Tiene tos con sangre o esputo?")
+    preguntas_tuberculosis.append("¿Tiene dolor en el pecho?")
+    preguntas_tuberculosis.append("¿Tiene debilidad o cansancio?")
+    preguntas_tuberculosis.append("¿Tiene falta de apetito?")
+    preguntas_tuberculosis.append("¿Tiene escalofrios?")
+    preguntas_tuberculosis.append("¿Tiene pérdida de peso?")
+    preguntas_tuberculosis.append("¿Tiene fiebre?")
     return preguntas_tuberculosis
 
 def neumonia():
     preguntas_neumonia = []
-    preguntas_neumonia.append("Padece de malestar general")
-    preguntas_neumonia.append("Padece de dolores musculares y articulares")
-    preguntas_neumonia.append("Padece de dolor de cabeza")
-    preguntas_neumonia.append("Padece de cansancio")
+    preguntas_neumonia.append("¿Padece de malestar general?")
+    preguntas_neumonia.append("¿Padece de dolores musculares y articulares?")
+    preguntas_neumonia.append("¿Padece de dolor de cabeza?")
+    preguntas_neumonia.append("¿Padece de cansancio?")
     return preguntas_neumonia
     
 def pestes():
     preguntas_peste = []
-    preguntas_peste.append("Padece de dolor de cabeza")
-    preguntas_peste.append("Padece de infiltraciones de sangre en la piel")
-    preguntas_peste.append("Padece de dolor de estomago")
-    preguntas_peste.append("Padece de fiebre")
-    preguntas_peste.append("Padece de cansancio")
-    preguntas_peste.append("Padece de escalofrios")
+    preguntas_peste.append("¿Padece de dolor de cabeza?")
+    preguntas_peste.append("¿Padece de infiltraciones de sangre en la piel?")
+    preguntas_peste.append("¿Padece de dolor de estómago?")
+    preguntas_peste.append("¿Padece de fiebre?")
+    preguntas_peste.append("¿Padece de cansancio?")
+    preguntas_peste.append("¿Padece de escalofrios?")
     return preguntas_peste
 
 def obesidad():
     preguntas_obesidad = []
     preguntas_obesidad.append("¿Padece de baja resistencia?")
-    preguntas_obesidad.append("Padece de sudoracion")
-    preguntas_obesidad.append("Padece de molestias articulares")
+    preguntas_obesidad.append("¿Padece de sudoración?")
+    preguntas_obesidad.append("¿Padece de molestias articulares?")
     return preguntas_obesidad
     
 def malaria():
     preguntas_malaria = []
-    preguntas_malaria.append("Padece de sudoracion")
-    preguntas_malaria.append("Padece de fiebre")
-    preguntas_malaria.append("Padece de escalofrios")
-    preguntas_malaria.append("Padece de tiritonas")
-    preguntas_malaria.append("Padece de vomito y diarrhea")
-    preguntas_malaria.append("Padece de cefaleas de dolores generalizados de musculos y articulaciones")
+    preguntas_malaria.append("¿Padece de sudoración?")
+    preguntas_malaria.append("¿Padece de fiebre?")
+    preguntas_malaria.append("¿Padece de escalofrios?")
+    preguntas_malaria.append("¿Padece de tiritonas?")
+    preguntas_malaria.append("¿Padece de vómito y diarrea?")
+    preguntas_malaria.append("¿Padece de dolores generalizados de musculos y articulaciones?")
     return preguntas_malaria
 
 def epilepsia():
     preguntas_epilepsia = []
-    preguntas_epilepsia.append("Padece de mareos")
-    preguntas_epilepsia.append("Padece de crisis epileptica")
-    preguntas_epilepsia.append("Padece de dificultad para hablar")
-    preguntas_epilepsia.append("Padece de sensacion de desconexion con el entorno")
-    preguntas_epilepsia.append("Padece de rigidez muscular")
-    preguntas_epilepsia.append("Padece de convulsiones")
+    preguntas_epilepsia.append("¿Padece de mareos?")
+    preguntas_epilepsia.append("¿Padece de crisis epileptica?")
+    preguntas_epilepsia.append("¿Padece de dificultad para hablar?")
+    preguntas_epilepsia.append("¿Padece de sensacion de desconexion con el entorno?")
+    preguntas_epilepsia.append("¿Padece de rigidez muscular?")
+    preguntas_epilepsia.append("¿Padece de convulsiones?")
     return preguntas_epilepsia
 
 preguntas_colesterol = colesterol()
@@ -158,9 +158,10 @@ def main():
     titulo.pack()
     titulo.config(font=("Courier", 35))
     
-    descrip = "Descripción sobre la aplicación"
+    descrip = "El objetivo principal del presente trabajo es crear un sistema experto para el diagnóstico de enfermedades, permitiendo con ello atender de manera inmediata las inquietudes de los pacientes."
     description=Label(master,justify=CENTER, text=descrip, wraplength=450, pad=10)
     description.pack()
+    description.config(font=("Arial", 12))
     
     btn = Button(master, text = 'Comenzar',  
                               command = ventana_preguntas).pack(side='top', pady=20)
