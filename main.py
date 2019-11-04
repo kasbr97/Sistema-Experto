@@ -142,7 +142,7 @@ def ventana_resultados(flag, enfermedad):
     global n 
     n = 0
     
-    texto=Label(res ,justify=CENTER, text='Usted padece de los síntomas más comunes en la siguiente enfermedad: ', wraplength=450, pad=10)
+    texto=Label(res ,justify=CENTER, text='De acuerdo a las preguntas contestadas, usted padece de la enfermedad: ', wraplength=450, pad=10)
     texto.pack()
     texto.config(font=("Arial", 15))
     texto_enfermedad = Label(res, justify=CENTER, text = enfermedad, pad = 10)
